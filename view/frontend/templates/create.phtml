@@ -1,0 +1,29 @@
+<div class="container">
+    <form method='POST' action="/magento/blog/index/save">
+        <div class="form-group">
+            <label for="name"><b>Post Name</b></label>
+            <input type="text" class="form-control" id="name" placeholder="Enter a name" name="name">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="name"><b>Post Url</b></label>
+            <input type="text" class="form-control" id="url" placeholder="Enter a url" name="url">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="name"><b>Post Content</b></label>
+            <input type="text" class="form-control" id="name" placeholder="Enter content" name="content">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="name"><b>Post Status</b></label>
+            <select name="status" class="form-control">
+                <option value="-">Please select</option>
+                <option value="1">Public</option>
+                <option value="0">Draft</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary" name="createbtn">Submit</button>
+    </form>
+</div>
